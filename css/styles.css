@@ -2,13 +2,13 @@
 :root {
   --primary-teal: #005757;
   /* Backgrounds, headers, footers — Luxury Teal */
-  --accent-gold: #d4af37d3;
+  --accent-gold: #f4c427;
   /* Buttons, highlights, borders — Rich Gold */
-  --accent-gold-dark: #917720;
+  --accent-gold-dark: #d2a100;
   /* Hover/darker gold */
   --secondary-cream: #F5F5DC;
   /* Cards/backgrounds — Cream/Beige */
-  --text-dark: #d4d4d4;
+  --text-dark: hsl(0, 100%, 100%);
   /* Body text — Dark Navy/Charcoal */
   --muted-text: #4B5A6A;
   /* Secondary text */
@@ -56,7 +56,7 @@ h4 {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(36, 33, 33, 0.95);
+  background: #0f2f2fdd;
   padding: 1.1rem 5%;
   z-index: 1000;
   box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
@@ -154,7 +154,7 @@ h4 {
   border-radius: 28px;
   letter-spacing: 1px;
   transition: all .25s;
-  box-shadow: 0 8px 18px rgba(212, 175, 55, .35);
+  box-shadow:0 8px 18px rgba(255, 196, 0, 0.319);
 }
 
 .book-now-btn:hover {
